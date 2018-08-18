@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		3B226CEB2126CD47001970BB /* combineSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B226CEC2126CF04001970BB /* sumInRange.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sumInRange.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B2BA8F521288133005B043C /* incorrectPasscodeAttempts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = incorrectPasscodeAttempts.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B316FB72127E633007F2F84 /* singleNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = singleNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF5C04621273AE30013C567 /* amendTheSentence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = amendTheSentence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF5C047212745A10013C567 /* findFirstSubstringOccurrence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = findFirstSubstringOccurrence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -18,6 +19,7 @@
 		3B226CE42126CD09001970BB = {
 			isa = PBXGroup;
 			children = (
+				3B2BA8F521288133005B043C /* incorrectPasscodeAttempts.playground */,
 				3B316FB72127E633007F2F84 /* singleNumber.playground */,
 				3BF5C047212745A10013C567 /* findFirstSubstringOccurrence.playground */,
 				3BF5C04621273AE30013C567 /* amendTheSentence.playground */,
