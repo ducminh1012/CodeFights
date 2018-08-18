@@ -1,5 +1,6 @@
 import UIKit
 
+//TODO Not working
 func sumInRange(nums: [Int], queries: [[Int]]) -> Int {
     var sum: Double = 0
     for q in queries {
