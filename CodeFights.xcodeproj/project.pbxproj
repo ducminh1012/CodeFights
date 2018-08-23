@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		3B226CEB2126CD47001970BB /* combineSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B226CEC2126CF04001970BB /* sumInRange.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sumInRange.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B2643F9212E75A800F500DA /* setZero.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = setZero.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B271C61212AAC3D001D377A /* fareEstimator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = fareEstimator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B271C62212AAF4B001D377A /* delivery.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delivery.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2982662129E85E00536AF1 /* removeKFromList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = removeKFromList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -29,6 +30,7 @@
 		3B226CE42126CD09001970BB = {
 			isa = PBXGroup;
 			children = (
+				3B2643F9212E75A800F500DA /* setZero.playground */,
 				3B2993F9212DA3EF00934E52 /* rotateImage.playground */,
 				3B2993F8212D8F1D00934E52 /* almostIncreasingSequence.playground */,
 				3B2993F7212D49B100934E52 /* makeArrayConsecutive2.playground */,
