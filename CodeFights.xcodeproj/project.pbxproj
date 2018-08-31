@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		3B0787672133B72300EA03E4 /* companyBotStrategy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = companyBotStrategy.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B226CEB2126CD47001970BB /* combineSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B226CEC2126CF04001970BB /* sumInRange.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sumInRange.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2643F9212E75A800F500DA /* setZero.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = setZero.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -16,6 +17,7 @@
 		3B2993F7212D49B100934E52 /* makeArrayConsecutive2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = makeArrayConsecutive2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2993F8212D8F1D00934E52 /* almostIncreasingSequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = almostIncreasingSequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2993F9212DA3EF00934E52 /* rotateImage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = rotateImage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B2A64522139024700F97371 /* packageBoxing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = packageBoxing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2BA8F521288133005B043C /* incorrectPasscodeAttempts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = incorrectPasscodeAttempts.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2BA8F6212887C7005B043C /* checkPalindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = checkPalindrome.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2BA8F721288F6D005B043C /* adjacentElementsProduct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = adjacentElementsProduct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -30,6 +32,8 @@
 		3B226CE42126CD09001970BB = {
 			isa = PBXGroup;
 			children = (
+				3B2A64522139024700F97371 /* packageBoxing.playground */,
+				3B0787672133B72300EA03E4 /* companyBotStrategy.playground */,
 				3B2643F9212E75A800F500DA /* setZero.playground */,
 				3B2993F9212DA3EF00934E52 /* rotateImage.playground */,
 				3B2993F8212D8F1D00934E52 /* almostIncreasingSequence.playground */,
