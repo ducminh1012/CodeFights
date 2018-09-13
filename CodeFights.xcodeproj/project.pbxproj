@@ -28,6 +28,7 @@
 		3B9698402140240B00FF8EBF /* decodeString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = decodeString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B96984121403E2200FF8EBF /* twitSplit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = twitSplit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BB0C831212C8B7600203ADA /* shoppingList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = shoppingList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3BC8A4D9214AC05E005BF2BC /* sortedSquaredArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sortedSquaredArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF5C04621273AE30013C567 /* amendTheSentence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = amendTheSentence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF5C047212745A10013C567 /* findFirstSubstringOccurrence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = findFirstSubstringOccurrence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -36,6 +37,7 @@
 		3B226CE42126CD09001970BB = {
 			isa = PBXGroup;
 			children = (
+				3BC8A4D9214AC05E005BF2BC /* sortedSquaredArray.playground */,
 				3B96984121403E2200FF8EBF /* twitSplit.playground */,
 				3B9698402140240B00FF8EBF /* decodeString.playground */,
 				3B96983F213FEF3B00FF8EBF /* simplifyPath.playground */,

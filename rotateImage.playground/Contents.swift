@@ -42,4 +42,150 @@ func rotateImage2(image: [[Int]]) -> [[Int]] {
     return res
 }
 
-rotateImage2(image: [[1,2,3], [4,5,6], [7,8,9]])
+//rotateImage2(image: [[1,2,3], [4,5,6], [7,8,9]])
+
+func groupingDishes(dishes: [[String]]) -> [[String]] {
+    var ingredients = [String: Set<String>]()
+    
+    for i in 0..<dishes.count {
+        let dish = dishes[i].first
+            
+        for j in 0..<dishes[i].count {
+            let key = dishes[i][j]
+            if var newDish = ingredients[key] {
+                newDish.insert(dish!)
+                ingredients[key] = newDish
+            } else {
+            
+                ingredients[key] = Set([dish!])
+            }
+        }
+    }
+//    print(ingredients.filter({$0.value.count > 1}))
+    var res = [[String]]()
+    for r in ingredients.filter({$0.value.count > 1}) {
+        var arr = [String]()
+//        arr.append(r.key)
+        arr.append(contentsOf: r.value)
+        arr.sort{ (v1, v2) -> Bool in
+            return v1 > v2
+        }
+        arr.insert(r.key, at: 0)
+        res.append(arr)
+        
+//        print(r.key)
+    }
+//
+    res.sort { (v1, v2) -> Bool in
+        return v1[0] < v2[0]
+    }
+//
+    print(res)
+    return res
+}
+
+func quickSort(a: [Int], l: Int, r: Int) -> [Int] {
+    var arr = a
+    quickSortRef(a: &arr, l: l, r: r)
+    return arr
+}
+
+func quickSortRef(a: inout [Int], l: Int, r: Int) -> Void {
+    
+    if l >= r {
+        return
+    }
+    
+    let x = a[l]
+    var i = l
+    var j = r
+    
+    while i <= j {
+        while a[i] < x {
+            i += 1
+        }
+        while a[j] > x {
+            j -= 1
+        }
+        if i <= j {
+            let t = a[i]
+            a[i] = a[j]
+            a[j] = t
+            i += 1
+            j -= 1
+        }
+    }
+    
+    quickSortRef(a: &a, l: i+1, r: j-1)
+}
+
+quickSort(a: [5, 2, 1, 7, 5, 3, 2, 3], l: 0, r: 7)
+
+//func partitionHoare<T: Comparable>(_ a: inout [T], low: Int, high: Int) -> Int {
+//    let pivot = a[low]
+//    var i = low - 1
+//    var j = high + 1
+//
+//    while true {
+//        repeat { j -= 1 } while a[j] > pivot
+//        repeat { i += 1 } while a[i] < pivot
+//
+//        if i < j {
+//            a.swapAt(i, j)
+//        } else {
+//            return j
+//        }
+//    }
+//}
+//
+//func quicksortHoare<T: Comparable>(_ a: inout [T], low: Int, high: Int) {
+//    if low < high {
+//        let p = partitionHoare(&a, low: low, high: high)
+//        quicksortHoare(&a, low: low, high: p)
+//        quicksortHoare(&a, low: p + 1, high: high)
+//    }
+//}
+//var a = [5, 2, 1, 7, 5, 3, 2, 3]
+//quicksortHoare(&a, low: 0, high: a.count - 1)
+
+func higherVersion2(ver1: String, ver2: String) -> Int {
+    let v1 = ver1.components(separatedBy: ".").map({Int($0) ?? 0})
+    let v2 = ver2.components(separatedBy: ".").map({Int($0) ?? 0})
+    
+    var res = 0
+    
+    for i in 0..<v1.count {
+        print(v1[i])
+        if v1[i] == v2[i] && i == v1.count - 1{
+            res = 0
+        } else if v1[i] > v2[i] {
+            res = 1
+            break
+        } else if v1[i] < v2[i] {
+            res = -1
+            break
+        }
+    }
+    
+    return res
+}
+
+//higherVersion2(ver1: "1.0.5", ver2: "1.1.0")
+
+func sortByString(s: String, t: String) -> String {
+    var res = ""
+    
+    
+    for c in t {
+        for a in s {
+//            print(a)
+            if c == a {
+            res += String(c)
+            }
+        }
+    }
+    return res
+}
+
+//sortByString(s: "weather", t: "therapyw")
+
