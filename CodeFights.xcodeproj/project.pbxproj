@@ -24,6 +24,7 @@
 		3B2BA8F721288F6D005B043C /* adjacentElementsProduct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = adjacentElementsProduct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B2BA8F82128922A005B043C /* shapeArea.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = shapeArea.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B316FB72127E633007F2F84 /* singleNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = singleNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3B6FFA9D214F98AB0068E76F /* commonCharacterCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = commonCharacterCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B96983F213FEF3B00FF8EBF /* simplifyPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = simplifyPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B9698402140240B00FF8EBF /* decodeString.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = decodeString.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3B96984121403E2200FF8EBF /* twitSplit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = twitSplit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -37,6 +38,7 @@
 		3B226CE42126CD09001970BB = {
 			isa = PBXGroup;
 			children = (
+				3B6FFA9C214F98590068E76F /* Arcade */,
 				3BC8A4D9214AC05E005BF2BC /* sortedSquaredArray.playground */,
 				3B96984121403E2200FF8EBF /* twitSplit.playground */,
 				3B9698402140240B00FF8EBF /* decodeString.playground */,
@@ -62,6 +64,14 @@
 				3B226CEC2126CF04001970BB /* sumInRange.playground */,
 				3B226CEB2126CD47001970BB /* combineSum.playground */,
 			);
+			sourceTree = "<group>";
+		};
+		3B6FFA9C214F98590068E76F /* Arcade */ = {
+			isa = PBXGroup;
+			children = (
+				3B6FFA9D214F98AB0068E76F /* commonCharacterCount.playground */,
+			);
+			path = Arcade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
