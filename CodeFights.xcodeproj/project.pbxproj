@@ -34,12 +34,14 @@
 		3BF5C04621273AE30013C567 /* amendTheSentence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = amendTheSentence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3BF5C047212745A10013C567 /* findFirstSubstringOccurrence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = findFirstSubstringOccurrence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6C3FD15A220032770082E504 /* combineSum2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineSum2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6C3FD15B220039810082E504 /* combineSum3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineSum3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		3B226CE42126CD09001970BB = {
 			isa = PBXGroup;
 			children = (
+				6C3FD15B220039810082E504 /* combineSum3.playground */,
 				6C3FD15A220032770082E504 /* combineSum2.playground */,
 				3B6FFA9C214F98590068E76F /* Arcade */,
 				3B55CDB92157D0B200871A77 /* balanceParenthesis.playground */,
